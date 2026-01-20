@@ -13,6 +13,8 @@ Program CLI untuk menghasilkan file YAML Kubernetes secara otomatis
 ## Cara Menjalankan
 ```bash
 python3 -m venv venv
+
+### Linux
 source venv/bin/activate
 
 ### Windows (Git Bash)
