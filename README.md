@@ -11,14 +11,21 @@ Program CLI untuk menghasilkan file YAML Kubernetes secara otomatis
 - Output siap digunakan dengan `kubectl apply -f`
 
 ## Cara Menjalankan
+### Inisialisasi Git pada Folder
 ```bash
-python3 -m venv venv
+git init
 
-### Linux
-source venv/bin/activate
+### Inisialisasi Git pada Folder
+```bash
+git pull https://github.com/rizkyudhap/deployman.git
 
-### Windows (Git Bash)
-source venv/Scripts/activate
+### Beri Permission pada file
+```bash
+chmod +x ./start.sh
+
+### Jalankan Program
+```bash
+./start.sh
 
 pip install -r requirements.txt
 python main.py
