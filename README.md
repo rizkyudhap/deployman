@@ -3,29 +3,31 @@
 Program CLI untuk menghasilkan file YAML Kubernetes secara otomatis
 (Deployment, Service, dan Pod) berdasarkan input user.
 
-## Fitur
+---
+
+## ✨ Features
+
 - Generate Deployment YAML
 - Generate Service YAML
 - Generate Pod YAML
 - Validasi input dasar
 - Output siap digunakan dengan `kubectl apply -f`
 
-## Cara Menjalankan
-### Inisialisasi Git pada Folder
-```bash
-git init
+---
 
-### Inisialisasi Git pada Folder
-```bash
-git pull https://github.com/rizkyudhap/deployman.git
+## 🛠 Tech Stack
 
-### Beri Permission pada file
-```bash
-chmod +x ./start.sh
+- Python 3
+- CLI Interface
+- YAML Generator
+- Virtual Environment
 
-### Jalankan Program
+---
+
+## 📦 Installation
+
 ```bash
+git clone https://github.com/rizkyudhap/deployman.git
+cd deployman
+chmod +x start.sh
 ./start.sh
-
-pip install -r requirements.txt
-python main.py
